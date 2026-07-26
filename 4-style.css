@@ -1,0 +1,68 @@
+/* Serverless Visitor Counter - AWS Project */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+
+h1 {
+    color: #232f3e;
+    margin-bottom: 20px;
+}
+
+
+p {
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+
+.counter-box {
+    background: #eef6ff;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+
+.counter-box h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+
+#visitor-count {
+    font-size: 50px;
+    color: #ff9900;
+}
+
+
+.info {
+    font-size: 14px;
+    color: #777;
+    margin-top: 20px;
+}
